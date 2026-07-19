@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custome css -->
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <!-- email js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("Uxp7KZEFYqbr1xzpX"); 
+        })();
+    </script>
+
+    <title>Portofolio</title>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Portofolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <!-- navbar -->
+        <nav class="navbar hidden" id="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang</a>
+            <a href="#skills">Keahlian</a>
+            <a href="#experience">Pengalaman</a>
+            <a href="#portfolio">Proyek</a>
+            <a href="#contact">Hubungi</a>
+        </nav>
+        <!-- /navbar -->
+
+    </header>
+
+
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hai, saya</h3>
+            <h1>Miftahul Jannah</h1>
+            <h3>dan saya <span class="multiple-text"></span></h3>
+            <p>"Hal besar selalu dimulai dari langkah kecil. Kalau portofolio ini 
+                berhasil membuat Anda berhenti scrolling, berarti langkah pertama sudah berhasil. Selamat Datang!".</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/teletubis.nakak?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/_.miftahul_jannah/profilecard/?igsh=MXNuZjUxOTFldjdkeQ=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Miftahul14"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/6285608428492/"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+
+            <a href="#about" class="btn">Tentang Saya</a>
+
+        </div>
+
+        <div class="home-img">
+            <img src="bg.png" loading="lazy" alt="foto">
+        </div>
+
+    </section>
+    <!-- /home -->
+
+
+    <!-- tentang -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="foto.png" loading="lazy" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Tentang <span>Saya</span></h2>
+            <h3>Administrasi | Web Development</h3>
+            <p>"Halo! Saya Miftahul Jannah, lulusan S1 Teknik Informatika Universitas Nurul Jadid dengan IPK 3,60.
+                Saya memiliki pengalaman dalam pengembangan aplikasi berbasis web, pengelolaan administrasi, dokumentasi, dan pengolahan data.
+                Aspirasi Karier Saya ingin terus mengembangkan kemampuan serta berkontribusi melalui pekerjaan yang memberikan manfaat bagi perusahaan maupun instansi.
+                Kemampuan Relevan Saya menguasai HTML, CSS, javascript, dan Microsoft Office, serta terbiasa bekerja secara teliti, bertanggung jawab, dan mampu bekerja baik secara mandiri maupun dalam tim."</p>
+            <a href="#contact" class="btn">Hubungi Saya</a>
+        </div>
+    </section>
+    <!-- /tentang -->
+
+
+    <!-- keahlian -->
+    <section id="skills" class="skills">
+        <div class="main-text">
+            <h2 class="heading">Keahlian <span>Saya</span></h2>
+        </div>
+
+        <div class="skill-main">
+            <div class="skill-left">
+                <h3 class="skill-title">
+                    <span><i class="bx bx-laptop"></i> </span>Bidang Keahlian
+                </h3>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p><i class='bx bx-code-block' style="background-color: #FF5733; color: #ffffff;"></i>  Web development ( Html, Css, JavaScript, Django ) </p>
+                        <p>85%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p><i class='bx bx-spreadsheet' style="background-color: #264DE4; color: #ffffff;"></i>  Administrator ( MS. Office, Pengarsipan Dokumen, Pengolahan Data )</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p><i class='bx bx-line-chart' style="color: #F7DF1E;"></i>  Data Analis ( MS. Excel, SQL, Power BI )</p>
+                        <p>70%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p><i class='bx bx-layout' style="background-color: #092E20; color: #ffffff;"></i> Web Design ( Figma, Canva )</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="django"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-right">
+                <h3 class="skill-title">
+                    <span><i class="bx bx-award"></i> </span>Keahlian profesional
+                </h3>
+                <div class="porfessional">
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="95"></div>
+                        <div class="text">
+                            <big>95%</big>
+                            <small>Kerja Tim</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="95"></div>
+                        <div class="text">
+                            <big>95%</big>
+                            <small>Teliti</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Manajemen proyek</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="100"></div>
+                        <div class="text">
+                            <big>100%</big>
+                            <small>Bertanggung Jawab</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- /keahlian -->
+
+
+    <!-- Pengalaman -->
+     <section class="experience" id="experience">
+
+        <h2 class="heading">Pengalaman <span>Saya</span></h2>
+
+        <h3 class="experience-title">
+            <span><i class="bx bx-briefcase"></i> </span>Pengalaman Kerja
+        </h3>
+
+        <div class="experience-container">
+
+           <div class="experience-box">
+                <div class="experience-header">
+                    <div class="company">
+                        <i class="bx bx-folder-open"></i>
+                        <div class="company-info">
+                            <h4>CV. Lombok Mas Motor</h4>
+                            <p>Kraksaan, Probolinggo</p>
+                        </div>
+                    </div>
+                    <span>2025 - 2026</span>
+                </div>
+                <h3>Admin STNK BPKB | Admin Pengiriman | Admin Sosial Media</h3>
+                <ul>
+                    <li>Administrasi STNK/BPKB 90–120 berkas per bulan.</li>
+                    <li>Input data pelanggan.</li>
+                    <li>Membuat Invoice/VSO.</li>
+                    <li>Mengatur pengiriman kendaraan.</li>
+                    <li>Mengelola media sosial dealer.</li>
+                </ul>
+            </div>
+
+            <div class="experience-box">
+                <div class="experience-header">
+                    <div class="company">
+                        <i class="bx bx-network-chart"></i>
+                        <div class="company-info">
+                            <h4>PT. PLN Nusantara Power</h4>
+                            <p>Paiton, Probolinggo</p>
+                        </div>
+                    </div>
+                    <span>2023 - 2023</span>
+                </div>
+                <h3>Sistem Informasi (Internship) </h3>
+                <ul>
+                    <li>Mengembangkan aplikasi penerimaan mahasiswa magang berbasis website.</li>
+                    <li>Membantu penanganan masalah teknis dan administrasi.</li>
+                    <li>Menyusun dokumentasi sistem dan laporan teknis.</li>
+                    <li>Berkolaborasi dengan tim developer untuk memperbaiku bug dan meningkatkan performa website.</li>
+                </ul>
+            </div>             
+
+        </div>
+
+
+        <h3 class="experience-title">
+            <span><i class="fa-solid fa-users"></i></span> Pengalaman Organisasi
+        </h3>
+
+        <div class="experience-container">
+
+            <!-- organisasi 1 -->
+            <div class="experience-box">
+                <div class="experience-header">
+                    <div class="company">
+                        <i class="fa-solid fa-users"></i>
+                        <div class="company-info">
+                            <h4>Himpunan Mahasiswa Islam ( HMI )</h4>
+                            <p>Paiton, Probolinggo</p>
+                        </div>
+                    </div>
+                    <span>2022 - 2023</span>
+                </div>
+                <h3>PPPA (Penelitian, Pengembangan, dan Pembinaan Anggota) </h3>
+                <ul>
+                    <li>Penelitian dan pengembangan anggota.</li>
+                    <li>Pengawalan dan kelanjutan kader (Follow Up).</li>
+                    <li>Rekrutmen dan pembinaan awal kader</li>
+                </ul>
+            </div>       
+
+            <!-- organisasi 2 -->
+             <div class="experience-box">
+                <div class="experience-header">
+                    <div class="company">
+                        <i class="fa-solid fa-users"></i>
+                        <div class="company-info">
+                            <h4>Himpunan Mahasiswa Islam ( HMI )</h4>
+                            <p>Paiton, Probolinggo</p>
+                        </div>
+                    </div>
+                    <span>2023 - 2024</span>
+                </div>
+                <h3>PAO (Pembinaan Aparatur Organisasi) </h3>
+                <ul>
+                    <li>Penegakan konstitusi dan aturan organisasi.</li>
+                    <li>Pengelolaan struktur dan tata kelola internal.</li>
+                    <li>Pembinaan aparatur (pengurus) </li>
+                    <li>Standarisasi Administrasi (Bersama Sekretaris Umum) </li>
+                </ul>
+            </div>       
+
+        </div>
+
+    </section>
+    <!-- Pengalaman -->
+
+
+    <!-- project -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Proyek <span>Terbaru</span></h2>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="project/sips/sips.webp" loading="lazy" alt="Kredit Poin Siswa">
+
+                <div class="portfolio-content">
+                    <h4>Kredit Poin Siswa</h4>
+                    <p>Aplikasi website untuk mengelola 
+                        data pelanggaran dan prestasi Siswa</p>
+
+                    <button href="#" class="detail-project" data-project="1">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>Lihat Detail</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <img src="project/toko/toko.webp" loading="lazy" alt="Toko Elektronik">
+                <div class="portfolio-content">
+                    <h4>Toko Elektronik</h4>
+                    <p>Toko elektronik adalah solusi belanja elektronik terpercaya dengan produk lengkap dan modern</p>
+
+                    <button href="#" class="detail-project" data-project="2">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>Lihat Detail</span>
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="project/pondok/sumbangan_pondok.webp" loading="lazy" alt="">
+                <div class="portfolio-content">
+                    <h4>Pembayaran SPP Santri</h4>
+                    <p>Pembayaran SPP Bulanan Santri.</p>
+                    
+                    <button href="#" class="detail-project" data-project="3">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>Lihat Detail</span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- modal -->
+    <div class="project-modal">
+
+        <div class="modal-content">
+
+            <span class="close-modal">
+                <i class="fa-solid fa-xmark"></i>
+            </span>
+
+            <div class="project-detail">
+
+                <div class="modal-left">
+                    <img id="modal-image" src="" alt="">
+
+                    <button class="view-image-btn">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        Lihat Gambar
+                    </button>
+
+                </div>
+
+                <div class="modal-right">
+
+                    <h2 id="modal-title"></h2>
+
+                    <p id="modal-description"></p>
+
+                    <div id="modal-tech"></div>
+
+                    <div id="modal-feature"></div>
+
+                    <div class="modal-buttons">
+                        <a href="#" id="modal-github" target="_blank">GitHub</a>
+                        <a href="#" id="modal-demo" target="_blank">Live Demo</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="image-preview">
+
+                <button class="back-preview">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Kembali
+                </button>
+
+                <div class="gallery">
+
+                    <div class="image-content">
+
+                        <h3 id="image-title"></h3>
+
+                        <img id="preview-image">
+
+                    </div>
+
+                </div>
+
+                <div class="gallery-navigation">
+
+                    <button class="prev-image">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+
+                    <div class="image-counter">
+                        <span id="current-image">1</span>
+                        /
+                        <span id="total-image">17</span>
+                    </div>
+
+                    <button class="next-image">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+
+                </div>
+
+                <div class="thumbnail-container"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- modal -->
+
+    <!-- /project -->
+
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2 class="heading">Hubungi <span>Saya</span></h2>
+            <h4>Mari Bekerja Bersama</h4>
+            <p>Terima kasih telah mengunjungi portofolio saya! Jika Anda tertarik untuk bekerja sama,
+                memiliki pertanyaan, atau hanya ingin berdiskusi, jangan ragu untuk menghubungi saya.</p>
+
+            <div class="contact-list">
+                <li><i class='bx bxs-send'></i> miftahuljnnh1414@gmail.com</li>
+                <li><i class='bx bxs-phone'></i> +62 856-0842-8492</li>
+                <li><i class='bx bxs-map'></i> Jawa Timur, Kab. Probolinggo</li>
+            </div>
+
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/teletubis.nakak?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/_.miftahul_jannah/profilecard/?igsh=MXNuZjUxOTFldjdkeQ=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Miftahul14"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/6285608428492/"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="" id="contactForm">
+                <input type="text" id="name" name="name" placeholder="Masukkanan Nama" required>
+                <input type="email" id="email" name="email" placeholder="Masukkan Email" required>
+                <textarea id="message" name="message" cols="40" rows="10" placeholder="Masukkan Pesan Anda" required></textarea>
+
+                <button type="submit" class="send" value="kirim ">Kirim</button>
+            </form>
+        </div>
+
+    </section>
+    <!-- /contact -->
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @Miftahul jannah | All Right Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+
+    </footer>
+    <!-- /footer -->
+
+
+
+    <!-- scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- box icons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- custome js -->
+    <script src="main.js"></script>
+
+    <!-- js contact -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        emailjs.init("Uxp7KZEFYqbr1xzpX"); 
+
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+    
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+    
+            console.log("Mengirim data:", { name, email, message });
+    
+            emailjs.send("service_1wugn1q", "template_6yp7ruf", {
+                name: name,
+                email: email,
+                message: message
+            })
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                alert('Pesan berhasil dikirim!');
+                document.getElementById('contactForm').reset();
+            }, function(error) {
+                console.error('FAILED...', error);
+                alert('Pesan gagal dikirim. Coba lagi.');
+            });
+        });
+    </script>
+
+    <!-- js contact -->
+
+
+</body>
+</html>
